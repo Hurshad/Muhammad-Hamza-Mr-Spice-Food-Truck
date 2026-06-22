@@ -1,0 +1,136 @@
+body{
+    font-family: Arial;
+    text-align:center;
+    background:#fff8f0;
+}
+
+h1{
+    color:#c62828;
+}
+
+p{
+    font-size:18px;
+}
+nav{
+    background:#c62828;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+.hero{
+    background:#ff9800;
+    color:white;
+    padding:50px;
+    margin:20px;
+    border-radius:10px;
+}
+
+button{
+    background:white;
+    color:#c62828;
+    border:none;
+    padding:12px 20px;
+    margin:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+p{
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    line-height: 1.6;
+}
+.menu-item{
+    background:white;
+    width:70%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+.logo{
+    width:150px;
+    margin-top:20px;
+}
+.menu-item img{
+    width:250px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.review{
+    background:white;
+    width:70%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+.price{
+    font-size: 24px;
+    font-weight: bold;
+    color: #c62828;
+    margin-top: 15px;
+}
+.contact-form{
+    width:60%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:15px;
+    border-radius:8px;
+    border:1px solid lightgray;
+}
+
+.contact-form textarea{
+    height:120px;
+}
+.cta-btn{
+    background:white;
+    color:#c62828;
+    padding:15px 25px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    margin:10px;
+    display:inline-block;
+}
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    width:80%;
+    margin:auto;
+    flex-wrap:wrap;
+}
+
+.about-container img{
+    width:400px;
+    border-radius:15px;
+}
+
+.about-text{
+    max-width:500px;
+    text-align:left;
+}
+footer{
+    background:#c62828;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
